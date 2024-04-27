@@ -19,6 +19,6 @@ function getInfo() {
 function clearTheTable() {
   var output = document.getElementById("output");
   var clear = document.getElementById("clear");
-  clear.style.display = "none";
-  output.style.display = "none";
+  clear.style.display = "";
+  output.style.display = "";
 }
